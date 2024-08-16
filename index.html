@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Replica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+          <a href="index.html" class="logo">
+            <img src="img/neflix-logo.png" alt="">
+          </a>  
+          <div class="header-options">
+            <div class="header-collap">
+               <div class="header-links">
+            <a href="#">Homepage</a>
+            <a href="#">Serials</a>
+            <a href="#">Movies</a>
+            <a href="#">New & Popular</a>
+            <a href="#">My List</a>
+          </div> 
+            </div>
+            
+          <h2>Browse <i class="fa-solid fa-sort-down"></i></h2>
+          </div>
+          
+        </div> 
+
+        <div class="header-right">
+            <div class="search-icon">
+                <i id="search-glass" class="fa-solid fa-magnifying-glass"></i>
+                <div class="search">
+                    <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="search" placeholder="Search a Movie">
+                </div>
+                <div class="search-results"></div>
+            </div>
+            <i class="fa-regular fa-bell"></i>
+            <div class="user">
+                <img src="img/user.png" alt="">
+                <i id="down" class="fa-solid fa-sort-down"></i>
+                <div class="user-container">
+                   <div class="user-box">
+                    <i id="up" class="fa-solid fa-sort-up"></i>
+                    <span><i class="fa-solid fa-pen"></i><p>Profiles</p></span>
+                    <span><i class="fa-solid fa-id-card-clip"></i><p>Transfer Profiles</p> </span>
+                    <span><i class="fa-regular fa-user"></i><p>Account</p> </span>
+                    <span><i class="fa-regular fa-circle-question"></i><p>Assistance</p> </span>
+                    <a>Disconnect</a>
+                </div> 
+                </div>
+                
+            </div>
+        </div>
+        
+
+    </header>
+
+
+    <video autoplay muted loop id="background-video">
+        <source src="img/New Amsterdam Season 5 Promo (HD) Final Season.mp4">
+    </video>
+
+
+    <div class="homepage-movie">
+        <h2>NEW AMSTERDAM</h2>
+        <p>One of the oldest hospitals in America has a new director: the non-confirmist Dr. Max Goodwin<span>, who comes to change the situation and save the patients' lives</span></p>
+        <span>
+            <button><i class="fa-solid fa-play"></i> Play</button>
+            <button><i class="fa-solid fa-circle-info"></i> More information</button>
+        </span>
+        <span id="volume"><i class="fa-solid fa-volume-xmark"></i></span>
+    </div>
+
+    <div class="big-box first">
+        <h2 class="title">Best Films</h2>
+        <i id="arrow-left-1" class="arrow-left fa-solid fa-chevron-left"></i>
+        <i id="arrow-right-1" class="arrow-right active fa-solid fa-chevron-right"></i>
+        <div class="movie-box best-films"></div>
+    </div>
+    
+    <div class="big-box secound">
+        <h2 class="title">Award-Winning Serials</h2>
+        <i id="arrow-left-2" class="arrow-left fa-solid fa-chevron-left"></i>
+        <i id="arrow-right-2" class="arrow-right active fa-solid fa-chevron-right"></i>
+        <div class="movie-box award-winning"></div>
+    </div>
+    
+    <div class="big-box third">
+        <h2 class="title">Your Next Obsession</h2>
+        <i id="arrow-left-3" class="arrow-left fa-solid fa-chevron-left"></i>
+        <i id="arrow-right-3" class="arrow-right active fa-solid fa-chevron-right"></i>
+        <div class="movie-box next-obsession"></div>
+    </div>
+    
+    <div class="big-box forth">
+        <h2 class="title">Funny Comedy Movies</h2>
+        <i id="arrow-left-4" class="arrow-left fa-solid fa-chevron-left"></i>
+        <i id="arrow-right-4" class="arrow-right active fa-solid fa-chevron-right"></i>
+        <div class="movie-box comedy"></div>
+    </div>
+    
+
+
+    <footer>
+        <div class="footer-bbox">
+            <div class="footer-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+<div class="footer-boxes">
+    <div class="footer-box">
+            <p>Audio Description</p>
+            <p>Relations with investors</p>
+            <p>legal notices</p>
+            <p>Ads preferences</p>
+            <span>
+                <p>Assistance</p>
+                <p>Careers</p>
+                <p>Cookies preferences</p> 
+            </span>
+        </div>
+        <div class="footer-box">
+            <p>Assistance</p>
+            <p>Careers</p>
+            <p>Cookies preferences</p>
+        </div>
+        <div class="footer-box">
+            <p>Gift cards</p>
+            <p>Use terms</p>
+            <p>Company info</p>
+            <span>
+                <p>Media centre</p>
+                <p>The confidentiality statement</p>
+            <p>Contact-us</p>
+            </span>
+        </div>
+        <div class="footer-box">
+            <p>Media centre</p>
+            <p>The confidentiality statement</p>
+            <p>Contact-us</p>
+        </div>
+</div>
+        </div>
+        
+        
+    </footer>
+
+
+<script src="https://kit.fontawesome.com/373d177386.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+</body>
+</html>
